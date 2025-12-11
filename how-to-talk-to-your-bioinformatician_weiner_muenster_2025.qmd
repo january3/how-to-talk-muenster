@@ -32,6 +32,30 @@ knitr:
     dev: "svg"
 ---
 
+
+## Then and now...
+
+:::: {.columns}
+::: {.column width="45%"}
+
+### How it was going
+
+![](images/kuba-rower-1.jpg){width="70%"}
+
+:::
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+### How it is going
+
+![](images/P1030267.jpg){width="70%"}
+
+:::
+::::
+
+## What is this thing we call "bioinformatics"?
+
 ```{scss}
 $callout-color-tip: #70ADC1;
 ```
@@ -80,30 +104,6 @@ library(ggplot2)
 
 theme_set(theme_minimal())
 ```
-
-
-## Then and now...
-
-:::: {.columns}
-::: {.column width="45%"}
-
-### How it was going
-
-![](images/kuba-rower-1.jpg){width="70%"}
-
-:::
-::: {.column width="10%"}
-:::
-
-::: {.column width="45%"}
-### How it is going
-
-![](images/P1030267.jpg){width="70%"}
-
-:::
-::::
-
-## What is this thing we call "bioinformatics"?
 
 
 
@@ -189,19 +189,6 @@ Be patient with us. We are not stupid, but we don't know your context, your
 field, your abbreviations.
 
 Also, we don't even know all of statistics or bioinformatics.
-
-:::
-
-##
-
-::: {.callout-tip}
-## My key advice to you
-
-**Communication is key**
-
- * Keep explaining your project – teach us
- * Work iteratively
- * Meet frequently
 
 :::
 
@@ -356,8 +343,6 @@ Gelman A, Stern H. The difference between “significant” and “not significa
 :::
 
 
-# Reproducibility
-
 ## Tale of two papers
 
 ![](images/pnas_1.png)
@@ -475,164 +460,6 @@ plot(qr_code("https://github.com/bihealth/howtotalk"))
 ```
 
 
-
-:::
-::::
-
-
-## Reproducible workflows with Rmarkdown
-
-```{mermaid}
-flowchart LR
-    A(Program + Text) -->|knitr| B(Text with analysis results)
-    B --> C[LaTeX]
-    C --> CC[PDF]
-    B --> D[Word]
-    B --> E[HTML]
-    B --> F[Presentation]
-    B --> G[Book]
-```
-
-*This can be Rmarkdown, Quarto, Jupyter... the goal is that your code and
-your text are in one place, and the results of your calculations are
-entered automatically into the text.*
-
-## Reproducible workflows with Rmarkdown
-
-
-```{r include=FALSE}
-p <- 0.05
-```
-
-In systems such ar R markdown, you can put directly your
-analysis results in your text. For example, when I write that the
-$p$-value is equal to `r p`, I am writing this:
-
-```markdown
-In systems such ar R markdown, you can put directly your
-analysis results in your text. For example, when I write that the
-$p$-value is equal to `​r p`, I am writing this:
-```
-
-The $p$-value above is not entered manually (as 0.05), but is the result of
-a statistical computation. If the data changes, if your analysis changes,
-the $p$-value above will automatically change as well.
-
-## Identifiers
-
- * Never use "pure numerical" identifiers (`1`, `2`, `3`, ...)
- * Never remove columns with "unneeded" identifiers or you can get
-   "involuntary anonymization"
- * If you identifier is, say, `S1`, then always refer to that sample as `S1`, not `Smp. 1` or `1`
-   or `Sample 1`
- * Better use a unique prefix for a study / cohort / experiment, like
-   `RCDB2024_S1`, `RCDB2024_S2`, `RCDB2025_S1`, `RCDB2025_S2`
- * Composite identifiers are fine, as long as you use them consistently:
-   `WT_treatment_1`, `KO_control_2` and not `WT_treatment_1`,
-   `KO-2-control`, `WT_ctrl2`
-
-
-::: {.notes}
-I have been working in a lab, I know how it is, you can only fit so many
-letters on the cap of an Eppendorf tube
-
- * Identifiers are unique
- * Identifiers are stable
- * Identifiers are machine-readable
-:::
-
-
-## How (not to) work with Excel
-
-:::: {.columns}
-::: {.column width="60%"}
-
-### Avoid manually modifying Excel files
-
- * Manual changes cannot be tracked automatically
- * You have to record every change you make
- * Otherwise, this is not reproducible science!
-
-:::
-
-::: {.column width="5%"}
-:::
-
-::: {.column width="35%"}
-
-
-:::
-::::
-
-
-
-
-
-## How (not to) work with Excel
-
-:::: {.columns}
-::: {.column width="60%"}
-
-### Never use formatting for data
-
-Never encode information as formatting, always use explicit columns
-
-Color / font size / font style cannot be read automatically 
-
-:::
-::: {.column width="5%"}
-:::
-::: {.column width="35%"}
-
-![](images/excel_1.png)
-
-:::
-::::
-
-
-
-
-## How (not to) work with Excel
-
-:::: {.columns}
-::: {.column width="60%"}
-
-### Don't combine values and comments
-
-Make a separate column for comments
-
-Otherwise the values might be lost[^lost]
-
-[^lost]: If the bioinformatician in charge is sloppy
-
-:::
-::: {.column width="5%"}
-:::
-::: {.column width="35%"}
-
-![](images/excel_comments.png)
-
-:::
-::::
-
-
-
-
-## How (not to) work with Excel
-
-:::: {.columns}
-::: {.column width="60%"}
-
-### Don't put meta-information into column names
-
-Make a separate excel sheet for column meta information
-
-:::
-::: {.column width="5%"}
-:::
-::: {.column width="35%"}
-
-![](images/excel_colnames.png)
 
 :::
 ::::

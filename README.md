@@ -3,11 +3,13 @@
 
 A presentation for non-bioinformaticians and bioinformaticians alike
 
-[Click here](https://bihealth.github.io/howtotalk/how-to-talk-to-your-bioinformatician.html#/title-slide) for the
-HTML presentation.
+[Click here](https://january3.github.io/how-to-talk-muenster/how-to-talk-to-your-bioinformatician_weiner_muenster_2025.html) 
+for the HTML presentation.
 
-[Click here](https://bihealth.github.io/howtotalk/weiner-how_to_talk-autumn_school-2025.pdf) for the PDF version.
 
-[Github page](https://github.com/bihealth/howtotalk).
+[Click here](https://january3.github.io/how-to-talk-muenster/how-to-talk-to-your-bioinformatician_weiner_muenster_2025.pdf) 
+for the PDF version.
+
+[Github page](https://github.com/january3/howtotalk).
 
 # how-to-talk-muenster
