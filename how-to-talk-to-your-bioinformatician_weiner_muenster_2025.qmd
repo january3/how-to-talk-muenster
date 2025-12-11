@@ -38,7 +38,7 @@ knitr:
 :::: {.columns}
 ::: {.column width="45%"}
 
-### How it was going
+### How it started
 
 ![](images/kuba-rower-1.jpg){width="70%"}
 
@@ -53,6 +53,37 @@ knitr:
 
 :::
 ::::
+
+## CUBI - Core Unit for Bioinformatics
+
+:::: {.collumns}
+::: {.column width="45%"}
+
+### Berlin Institute of Health:
+
+ * Institute for translational and precision medicine
+ * Founded in 2013 by MDC and Charité 
+
+### Core Unit for Bioinformatics (CUBI):
+
+ * Bioinformatics services and training to
+   researchers at BIH, MDC and Charité
+ * Focus on high throughput data analysis, user empowerment and
+   reproducible research
+ * High performance computing infrastructure, long term large data storage 
+
+:::
+::: {.column width="10%"}
+:::
+::: {.column width="45%"}
+
+![](images/charite.jpg)
+
+
+:::
+::::
+
+ 
 
 ## What is this thing we call "bioinformatics"?
 
@@ -293,6 +324,10 @@ Know their limits:
 ::: {.aside}
 Wasserstein RL, Lazar NA. The ASA statement on p-values: context, process, and purpose. The American Statistician. 2016 Apr 2;70(2):129-33.
 :::
+
+##
+
+![](images/Last-line-of-defense---statistics.png)
 
 ## How Venn diagrams can fool scientists
 
