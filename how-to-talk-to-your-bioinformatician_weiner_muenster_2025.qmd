@@ -325,9 +325,6 @@ Know their limits:
 Wasserstein RL, Lazar NA. The ASA statement on p-values: context, process, and purpose. The American Statistician. 2016 Apr 2;70(2):129-33.
 :::
 
-##
-
-![](images/Last-line-of-defense---statistics.png)
 
 ## How Venn diagrams can fool scientists
 
@@ -464,6 +461,26 @@ Abeysooriya M, Soria M, Kasu MS, Ziemann M. Gene name errors: Lessons not learne
 2016 paper: 20% of papers have Excel gene name errors
 2021 paper: it is 30% now. Excel now learned mulitple languages
 :::
+
+## Bottom lines
+
+:::: {.columns}
+::: {.column width="40%"}
+
+ * Communication is key
+ * Reproducibility matters
+ * Don't be like this ->
+ * Learn how to program ;-)
+
+::: 
+::: {.column width="5%"}
+:::
+::: {.column width="55%"}
+
+![](images/Last-line-of-defense---statistics.png){width="100%"}
+
+:::
+::::
 
 ## Thank you {.inverse background-color="#000000"}
 
