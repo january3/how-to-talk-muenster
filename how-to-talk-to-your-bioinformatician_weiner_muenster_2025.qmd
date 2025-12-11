@@ -19,7 +19,8 @@ format:
   revealjs:
     footer: "Core Unit for Bioinformatics, BIH@Charite"
     theme: cubi.scss
-    logo: files/bih_logo_small.png
+    #logo: files/bih_logo_small.png
+    logo: images/BIH_Logo_at-Charite_kurz_quer_rgb.jpg
     transition: fade
     slide-number: "c/t"
     smaller: true
@@ -78,6 +79,8 @@ knitr:
 ::: {.column width="45%"}
 
 ![](images/charite.jpg)
+
+![](images/BIH_Logo_at-Charite_kurz_quer_rgb.jpg)
 
 
 :::
